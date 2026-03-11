@@ -3,13 +3,10 @@ import random, sys
 def NumberGuesser():
     number = random.randint(1,10)
     guesses = 4
-    while True:  
-        if guesses <= 0:
-            print(f"Unfortunately you ran out of guesses, the number i thought of was {number}")
-        else:
-            print("You have " + str(guesses) + " guesses.")
-            print("Guess the number!")
-            guess = int(input(">"))
+    while guesses > 0:
+        print("You have " + str(guesses) + " guesses.")
+        print("Guess the number!")
+        guess = int(input(">"))
         if guess == number:
             print("Congratulations, you guessed the correct number!")
             sys.exit("Exiting...")
@@ -19,5 +16,6 @@ def NumberGuesser():
         elif guess < number:
             print("Wrong, that was too low. Guess again. ")
             guesses = guesses - 1
+    else:
+        print(f"Unfortunately you ran out of guesses, the number i thought of was {number}")
     return(number,guesses)
-
