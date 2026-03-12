@@ -1,0 +1,10 @@
+import time, sys
+
+#This is a number guessing game, where the player thinks of a random number
+#that the computer has to guess correctly.
+#This script is meant for use in other programs.
+
+def NumberGuesserHuman():
+    print("Welcome to this number guessing game.")
+    print("I want you to think of a number, and I will try to guess your number!")
+    
