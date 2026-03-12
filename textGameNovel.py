@@ -1,6 +1,4 @@
-import NumberGuesserComputer
-import sys
-import time
+import NumberGuesserComputer, sys, time 
 
 name = "Bob"
 your_name = ""
@@ -11,8 +9,8 @@ your_name = input("> ")
 time.sleep(1)
 print(f"{name}: Hi {your_name}, nice to meet you!") 
 time.sleep(1.5)
-print(f"{name}: Let's play a game. I am going to guess a random number between 1 and 10 \
-and I want you to guess the number.")
+print(f"{name}: Let's play a game. I am going to guess a random number \
+      between 1 and 10 and I want you to guess the number.")
 time.sleep(4)
 print(f"{name}: Are you ready?")
 time.sleep(1)
@@ -23,12 +21,12 @@ while True:
     if answer == "yes":
         print(f"{name}: Great, let's get started!")
         time.sleep(1)
-        NumberGuesserComputer.NumberGuesser()
+        NumberGuesserComputer.Main()
         break
     elif answer == "no":
         print(f"{name}: Too bad, we're starting anyway!")
         time.sleep(1)
-        NumberGuesserComputer.NumberGuesser()
+        NumberGuesserComputer.Main()
         break
     else:
         print("Sorry,? I didn't catch that!")

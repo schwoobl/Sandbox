@@ -4,7 +4,7 @@ import random, sys
 #number of guesses to get the correct number. 
 #This script is meant for use in other programs.
 
-def NumberGuesser():
+def Main():
     number = random.randint(1,10)   #Defines a random number between and including 1 and 10
     guesses = 4                     #Number of guesses the player has
     while guesses > 0: #Main game loop

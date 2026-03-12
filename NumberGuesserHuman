@@ -1,10 +1,32 @@
-import time, sys
+import time, sys, random
 
 #This is a number guessing game, where the player thinks of a random number
 #that the computer has to guess correctly.
 #This script is meant for use in other programs.
 
-def NumberGuesserHuman():
+def Main():
+    #Overview of variables
+    guesses = 5
+    computer_guess = random.randint(1,10)
+
+    #Intro
     print("Welcome to this number guessing game.")
     print("I want you to think of a number, and I will try to guess your number!")
-    
+
+    #Main game loop
+    human_number = int(input("Think of a random number between 1 and 10:"))
+    comptuer_guess = random.randint(1,10)
+
+    while guesses > 0:
+        comptuer_guess = random.randint(1,10)
+        if computer_guess == human_number:
+            print("Hah, I got it!!")
+            break
+        elif computer_guess > human_number:
+            print("Damn, that was too high, I guess.")
+            guesses = guesses - 1
+        elif computer_guess < human_number:
+            print("Damn, that was too low, I guess.")
+            guesses = guesses - 1
+
+Main()
