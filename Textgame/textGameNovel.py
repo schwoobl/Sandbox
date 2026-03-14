@@ -1,43 +1,47 @@
-import NumberGuesserComputer, sys, time 
+import NumberGuesserComputer, sys, time
 
+#Initialization & Overview
 name = "Bob"
 your_name = ""
 answer = ""
+human_guess = 0
 
-print(f"Hi, my name is {name}, what is yours?") 
+#Main Game
+print(f"Hi, my name is {name}, what is yours?") #f{name} inserts the predefined Name variable into the print statment for readability
 your_name = input("> ")
 time.sleep(1)
 print(f"{name}: Hi {your_name}, nice to meet you!") 
 time.sleep(1.5)
 print(f"{name}: Let's play a game. I am going to guess a random number \
-      between 1 and 10 and I want you to guess the number.")
+between 1 and 10 and I want you to guess the number.")
 time.sleep(4)
 print(f"{name}: Are you ready?")
 time.sleep(1)
-answer = input("Yes/no? > ").strip().lower()
+answer = input("Yes/no? > ").strip().lower() #strip() removes accidental spaces, lower() changes input to lowercase
 time.sleep(1.5)
-
 while True:
     if answer == "yes":
         print(f"{name}: Great, let's get started!")
         time.sleep(1)
-        NumberGuesserComputer.Main()
+        human_guess = NumberGuesserComputer.Main()
         break
     elif answer == "no":
         print(f"{name}: Too bad, we're starting anyway!")
         time.sleep(1)
-        NumberGuesserComputer.Main()
+        human_guess = NumberGuesserComputer.Main()
         break
     else:
         print("Sorry,? I didn't catch that!")
-        answer = input("Yes / no ?").strip().lower()
+        answer = input("Yes/no ?").strip().lower()
         time.sleep(1.5)
-
-print(f"{name}: Nice work, you actually did it! But it wasn't all that difficult...")
+if human_guess == 0:
+    print(f"{name}: Awh shucks. Better luck next time!")
+else:
+    print(f"{name}: Nice work, you actually did it! But it wasn't all that difficult...")
 time.sleep(2)
 print(f"{name}: Let's play a different game. I want YOU to think of a number, \
 and I will guess what it is!")
 time.sleep(4)
 print(f"{name}: This is gonna be a hoot. Are you ready?")
 time.sleep(1.5)
-answer_2 = input("Yes/No > ").strip().lower()
+answer = input("Yes/No > ").strip().lower()

@@ -17,11 +17,16 @@ def Main():
     human_number = int(input("Think of a random number between 1 and 10:"))
     comptuer_guess = random.randint(1,10)
 
-    while guesses > 0:
+    while guesses > 0: #todo include a statement to provide feedback to the computer
         comptuer_guess = random.randint(1,10)
         if computer_guess == human_number:
             print("Hah, I got it!!")
             break
+        
+#right now the computer just blitzes through numbers until its got it correctly
+#I want the computer to adjust its guess based on feedback, whether the guess was
+#too high or too low.
+
         elif computer_guess > human_number:
             print("Damn, that was too high, I guess.")
             guesses = guesses - 1
