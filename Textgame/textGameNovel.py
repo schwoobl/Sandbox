@@ -1,4 +1,6 @@
-import NumberGuesserComputer, time, NumberGuesserHuman
+import NumberGuesserComputer
+import NumberGuesserHuman
+import time
 
 #Initialization & Overview
 name = "Bob"
@@ -26,15 +28,15 @@ while True:
     if answer == "yes":
         print(f"{name}: Great, let's get started!")
         time.sleep(1.5)
-        human_guess = NumberGuesserComputer.Main()
+        human_guess = NumberGuesserComputer.main()
         break
     elif answer == "no":
         print(f"{name}: Too bad, we're starting anyway!")
         time.sleep(1.5)
-        human_guess = NumberGuesserComputer.Main()
+        human_guess = NumberGuesserComputer.main()
         break
     else:
-        print("Sorry,? I didn't catch that!")
+        print("Sorry, I didn't catch that!")
         answer = input("Yes/no ?").strip().lower()
         time.sleep(1.5)
 
@@ -63,7 +65,7 @@ while True:
         computer_guess = NumberGuesserHuman.Main(10)
         break
     else:
-        print("Sorry,? I didn't catch that!")
+        print("Sorry, I didn't catch that!")
         answer = input("Yes/no ?").strip().lower()
         time.sleep(1.5)
 

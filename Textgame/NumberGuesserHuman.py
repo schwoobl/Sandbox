@@ -1,4 +1,5 @@
-import random, time
+import random
+import time
 
 #This is a number guessing game, where the player thinks of a random number
 #that the computer has to guess correctly.
@@ -8,7 +9,7 @@ import random, time
 #I want the computer to adjust its guess based on feedback, whether the guess was
 #too high or too low.
 
-def Main(x):
+def main(x):
     #Initialization & overview of variables
     feedback = ""
     guesses = 4
@@ -42,4 +43,4 @@ def Main(x):
         victory = 0
     else:
         victory = 1
-    return(victory)
+    return victory

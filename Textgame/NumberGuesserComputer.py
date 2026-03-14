@@ -1,10 +1,11 @@
-import random, time
+import random
+import time
 
 #This is a number guessing game. The computer defines a random number and the player has x
 #number of guesses to get the correct number. 
 #This script is meant for use in other programs.
 
-def Main():
+def main():
     number = random.randint(1,10)   #Defines a random number between and including 1 and 10
     guesses = 5                     #Number of guesses the player has
     while guesses > 0:              #Main game loop
@@ -13,6 +14,7 @@ def Main():
         print("Guess the number!")
         time.sleep(1.5)
         guess = int(input(">"))     #Takes the players input and converts to an integer
+        #todo: Error-handling via try-except-else-finally statements
         if guess == number:         #This if-statement evaluates the players guess and gives a hint. 
             break                   #This is the victory condition!
         elif guess > number:
@@ -30,4 +32,4 @@ def Main():
         victory = 1
     else:
         victory = 0
-    return(victory)
+    return victory
