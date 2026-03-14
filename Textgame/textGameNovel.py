@@ -1,4 +1,4 @@
-import NumberGuesserComputer, sys, time
+import NumberGuesserComputer, sys, time, NumberGuesserHuman
 
 #Initialization & Overview
 name = "Bob"
@@ -45,3 +45,18 @@ time.sleep(4)
 print(f"{name}: This is gonna be a hoot. Are you ready?")
 time.sleep(1.5)
 answer = input("Yes/No > ").strip().lower()
+while True:
+    if answer == "yes":
+        print(f"{name}: Great, let's get started!")
+        time.sleep(1)
+        human_guess = NumberGuesserComputer.
+        break
+    elif answer == "no":
+        print(f"{name}: Too bad, we're starting anyway!")
+        time.sleep(1)
+        human_guess = NumberGuesserComputer.Main()
+        break
+    else:
+        print("Sorry,? I didn't catch that!")
+        answer = input("Yes/no ?").strip().lower()
+        time.sleep(1.5)

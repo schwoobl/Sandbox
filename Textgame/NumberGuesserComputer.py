@@ -23,3 +23,5 @@ def Main():
     else:
         print(f"Unfortunately you ran out of guesses, the number I thought of was {number}")
     return(guesses)
+
+Main()
