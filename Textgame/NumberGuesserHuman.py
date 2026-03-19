@@ -44,3 +44,5 @@ def main(x):
     else:
         victory = 1
     return victory
+
+main(10)

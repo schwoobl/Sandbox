@@ -17,8 +17,10 @@ def main():
             try:
                 guess = int(input("Your guess: "))     #Takes the players input and converts to an integer
                 break
-            except: 
+            except ValueError: 
                 print("That's not a valid number!!")
+            except KeyboardInterrupt:
+                print("Exiting")
         if guess == number:         #This if-statement evaluates the players guess and gives a hint. 
             break                   #This is the victory condition!
         elif guess > number:
@@ -37,4 +39,3 @@ def main():
     else:
         victory = 0
     return victory
-main()
