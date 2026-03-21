@@ -23,7 +23,8 @@ def get_answer(answer_number):
 print("Ask the magic 8 ball a yes or no question")
 input(">")
 
-r = random.randint(1,9)
-fortune = get_answer(r)
-print(fortune)
-    
+# r = random.randint(1,9)
+# fortune = get_answer(r)
+# print(fortune)
+
+print(get_answer(random.randint(1, 9)))
