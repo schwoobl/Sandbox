@@ -17,7 +17,12 @@
 
 # message = "xHxTxHxTxTxHxHxHxHxTxTxHxTxHxTxHxHxHxHxTxHxTxTxTxHxTxHxTxHxHxTxHxHxHxTxTxTxHxTxHxHxTxHxTxTxHxTxHxTxTxTxTxTxTxHxTxTxTxTxTxHxTxHxTxTxTxTxTxHxHxHxTxHxHxHxHxHxTxHxHxHxTxTxHxTxTxTxTxHxHxHxHxHxHxHxTxHxTxTx"
 
-##exercise 1
+##Exercise 1: Swap characters
+#Replace all "T" with "-" and print the result.
+# You should use:
+# a for loop
+# build a new string (new_message)
+
 # def replacement():
 #     new_message = ""
 #     for letter in message:
@@ -29,7 +34,8 @@
 # new_message = replacement()
 # print(new_message)
 
-##exercise 2
+##Exercose 2: Count characters
+#Count how many "H" characters are in the message.
 # message = "xHxTxHxTxTxHxHxHxHxTxTxHxTxHxTxHxHxHxHxTxHxTxTxTxHxTxHxTxHxHxTxHxHxHxTxTxTxHxTxHxHxTxHxTxTxHxTxHxTxTxTxTxTxTxHxTxTxTxTxTxHxTxHxTxTxTxTxTxHxHxHxTxHxHxHxHxHxTxHxHxHxTxTxHxTxTxTxTxHxHxHxHxHxHxHxTxHxTxTx"
 # counter = 0
 # for letter in message:
@@ -37,7 +43,9 @@
 #         counter -= 1
 # print(counter)
 
-##exercise 3
+##Exercise 3: Swap characters
+# Focus: multiple conditions + string building
+# Exercise 3: Swap characters
 # message = "xHxTxHxTxTxHxHxHxHxTxTxHxTxHxTxHxHxHxHxTxHxTxTxTxHxTxHxTxHxHxTxHxHxHxTxTxTxHxTxHxHxTxHxTxTxHxTxHxTxTxTxTxTxTxHxTxTxTxTxTxHxTxHxTxTxTxTxTxHxHxHxTxHxHxHxHxHxTxHxHxHxTxTxHxTxTxTxTxHxHxHxHxHxHxHxTxHxTxTx"
 # new_message = ""
 # for letter in message:
@@ -49,7 +57,8 @@
 #         new_message += letter
 # print(new_message)
 
-##exercise 4
+##Exercise 4: Only keep certain letters
+# Create a new string that contains only "H" characters (remove everything else).
 # message = "xHxTxHxTxTxHxHxHxHxTxTxHxTxHxTxHxHxHxHxTxHxTxTxTxHxTxHxTxHxHxTxHxHxHxTxTxTxHxTxHxHxTxHxTxTxHxTxHxTxTxTxTxTxTxHxTxTxTxTxTxHxTxHxTxTxTxTxTxHxHxHxTxHxHxHxHxHxTxHxHxHxTxTxHxTxTxTxTxHxHxHxHxHxHxHxTxHxTxTx"
 # new_message = ""
 
@@ -61,14 +70,29 @@
 
 # print(new_message)
 
-#exercise 5
+##Exercise 5: Group output
+#Print the message in chunks of 5 characters per line.
+
+
+# message = "xHxTxHxTxTxHxHxHxHxTxTxHxTxHxTxHxHxHxHxTxHxTxTxTxHxTxHxTxHxHxTxHxHxHxTxTxTxHxTxHxHxTxHxTxTxHxTxHxTxTxTxTxTxTxHxTxTxTxTxTxHxTxHxTxTxTxTxTxHxHxHxTxHxHxHxHxHxTxHxHxHxTxTxHxTxTxTxTxHxHxHxHxHxHxHxTxHxTxTx"
+# letter_counter = 0 
+# for letter in message:
+#     if letter_counter == 4:
+#         print(letter, end="")
+#         letter_counter = 0
+#     else:
+#         print(letter)
+#         letter_counter += 1
+
+#Exercise 6: Alternate case (slightly tricky)
+#Alternate case (slightly tricky)
+# Convert:
+# every even index → lowercase
+# every odd index → uppercase
+# This introduces:
+# range(len(message))
+# indexing (message[i])
 
 message = "xHxTxHxTxTxHxHxHxHxTxTxHxTxHxTxHxHxHxHxTxHxTxTxTxHxTxHxTxHxHxTxHxHxHxTxTxTxHxTxHxHxTxHxTxTxHxTxHxTxTxTxTxTxTxHxTxTxTxTxTxHxTxHxTxTxTxTxTxHxHxHxTxHxHxHxHxHxTxHxHxHxTxTxHxTxTxTxTxHxHxHxHxHxHxHxTxHxTxTx"
-counter = 0 
-for letter in message:
-    if counter == 5:
-        print(letter)
-        counter = 0
-    else:
-        print(letter,end="")
-        counter += 1
+
+print(range(len(message),2))
