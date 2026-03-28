@@ -12,7 +12,7 @@ while True: # The main game loop.
     print('%s Wins, %s losses, %s ties' % (wins, losses, ties))
     while True: # The player input loop.
         print('Enter your move: (r)ock, (p)aper, (s)cissors or (q)uit')
-        playerMove = input()
+        playerMove = input(">")
         if playerMove == 'q':
             sys.exit() # Quit the program.
         if playerMove == 'r' or playerMove == 'p' or playerMove == 's':
