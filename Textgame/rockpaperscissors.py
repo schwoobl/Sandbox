@@ -20,7 +20,7 @@ def main():
             else:
                 break
         computer_choice = random.choice(["r", "p", "s"])
-
+        
         if player_choice == computer_choice:
             print ("It's a tie!")
             ties += 1
