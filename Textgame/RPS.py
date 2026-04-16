@@ -10,11 +10,11 @@ def main():
     ties = 0
     games_played = 0 #this is the number of games played to be used outside of the function
 
-    while True: #Main game loop
+    while games_played !=10: #Main game loop
         while True:
             print(f"{wins} wins, {losses} losses, {ties} ties!")
 
-            player_choice = input("(R)ock, (p)aper or (s)cissors?! >").strip().lower()
+            player_choice = input("(R)ock, (p)aper or (s)cissors?! Or (q)uit !?>").strip().lower()
             if player_choice not in ["r", "p", "s", "q"]:
                 print("Please enter valid (r, p, s, q)!")
             elif player_choice == "q":
@@ -35,4 +35,4 @@ def main():
             print("Hah, I win!")
             losses += 1
             games_played += 1
-    return games_played
+    return games_played, wins, losses, ties 

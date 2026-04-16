@@ -1,7 +1,7 @@
+import time
 import NumberGuesserComputer
 import NumberGuesserHuman
 import RPS
-import time
 
 #Initialization & Overview
 name = "Bob"
@@ -9,7 +9,7 @@ player_name = ""
 answer = ""
 player_guess = 0
 computer_guess = 0
-RPS_result = 0
+games_played = 0
 
 #Main Game
 print(f"Hi, my name is {name}, what is yours?") #f{name} inserts the predefined name variable into the print statment for readability
@@ -59,12 +59,12 @@ while True:
     if answer == "yes":
         print(f"{name}: Great, let's get started!")
         time.sleep(1)
-        computer_guess = NumberGuesserHuman.Main(10)
+        computer_guess = NumberGuesserHuman.main(10)
         break
     elif answer == "no":
         print(f"{name}: Too bad, we're starting anyway!")
         time.sleep(1)
-        computer_guess = NumberGuesserHuman.Main(10)
+        computer_guess = NumberGuesserHuman.main(10)
         break
     else:
         print("Sorry, I didn't catch that!")
@@ -76,13 +76,27 @@ if computer_guess == 1:
 else:
     print(f"{name}: Aw man, I almost had you!")
 print(f"{name}: Alrighty, and lastly we will play 10 games of Rock, paper scissors!")
+time.sleep(3)
 print(f"{name}: I assume you know the rules, yes?")
-rules_known = input("Yes / No").strip().lower()
+time.sleep(1.5)
+rules_known = input("Yes / No? >").strip().lower()
 while True:
     if rules_known != "yes":
         print(f"{name}: Alright, so here's the rules. Rock smashes scissor, scissor cuts paper and paper covers rock. Got it? Great.")
+        time.sleep(4)
         break
     else:
         print(f"{name}: Great, lets get started then!")
-RPS_result = RPS.main()
+        time.sleep(1.5)
+        break
+
+while games_played != 10:
+    games_played, wins, losses, ties = RPS.main()
+    if wins > losses:
+        print(f"{name}: Damn, you're really good at this!")
+    elif wins < losses:
+        print(f"{name}: Sometimes you lose, sometimes the others win...")
+    else:
+        print(f"{name}: Well played Sir, well played!")
+
 
