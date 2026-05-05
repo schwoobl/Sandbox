@@ -14,11 +14,9 @@ def main():
         while True:
             print(f"{wins} wins, {losses} losses, {ties} ties!")
 
-            player_choice = input("(R)ock, (p)aper or (s)cissors?! Or (q)uit !?>").strip().lower()
-            if player_choice not in ["r", "p", "s", "q"]:
-                print("Please enter valid (r, p, s, q)!")
-            elif player_choice == "q":
-                sys.exit("Exiting..")
+            player_choice = input("(R)ock, (p)aper or (s)cissors?! >").strip().lower()
+            if player_choice not in ["r", "p", "s"]:
+                print("Please enter valid (r, p, s)!")
             else:
                 break
         computer_choice = random.choice(["r", "p", "s"])
