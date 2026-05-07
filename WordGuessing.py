@@ -8,11 +8,12 @@ guesses = 10
 
 
 while guesses != 0:
-    guess = input("Guess the word >")
+    guess = input("Guess a letter >")
     
     for letter in word:
         if guess not in word:
             print("Nope, wrong. Guess again.")
+            print("_", end=" ")
             guesses -= 1
         elif guess in word:
             print(letter)
