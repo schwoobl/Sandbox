@@ -4,7 +4,7 @@ while True:
 
     #Beginning Message Calculator
     print('Welcome to this simple calculator.')
-    print('What do you want to do? Type "Add", "Subtract/sub", "Multiply/mul" or "Divide/div", to perform the respective operations or type "Quit" to exit.')
+    print('What do you want to do? Type "+", "-", "*" or "/", to perform the respective operations or type "Quit" to exit.')
 
     operation = input()
 
@@ -18,21 +18,34 @@ while True:
         
     if operation == 'Quit'.strip().lower():
         sys.exit()
-    elif operation == 'Add'.strip().lower():
-        num1, num2 = numberInput()
-        add_result = num1 + num2
-        print('Result: ', add_result)
-    elif operation == 'Subtract' or 'Sub'.strip().lower():
-        num1, num2 = numberInput()
-        sub_result = num1 - num2
-        print('Result: ', sub_result)
-    elif operation == 'Multiply' or 'mul'.strip().lower():
-        num1, num2 = numberInput()
-        mul_result = num1 * num2
-        print('Result: ', mul_result)
-    elif operation == 'Divide' or 'div'.strip().lower():
-        num1, num2 = numberInput()
-        div_result = num1 / num2
-        print('Result: ', div_result)
-    else:
-        print('Invalid input')
+    try:
+        if operation == '+'.strip().lower():
+            num1, num2 = numberInput()
+            add_result = num1 + num2
+            print('Result: ', add_result)
+    except:
+        ValueError
+        print("Please enter a valid number")
+    try:
+        if operation == '-'.strip().lower():
+            num1, num2 = numberInput()
+            sub_result = num1 - num2
+            print('Result: ', sub_result)
+    except:
+        ValueError
+        print("Please enter a valid number")
+        if operation == '*'.strip().lower():
+            num1, num2 = numberInput()
+            mul_result = num1 * num2
+            print('Result: ', mul_result)
+    try:
+        if operation == '/'.strip().lower():
+            num1, num2 = numberInput()
+            div_result = num1 / num2
+            print('Result: ', div_result)
+    except:
+        ValueError
+        print("Please enter a valid number")
+
+        # else:
+        #     print('Invalid input')

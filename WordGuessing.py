@@ -6,14 +6,12 @@ words = [ "Hello" , "Test" , "Help", "pasta", "balloon"]
 word = random.choice(words)
 guesses = 10
 
-
 while guesses != 0:
     guess = input("Guess a letter >")
     
-    for letter in word:
-        if guess not in word:
-            print("Nope, wrong. Guess again.")
+    for i in word:
+        if i != guess:
             print("_", end=" ")
             guesses -= 1
-        elif guess in word:
-            print(letter)
+        elif i == guess:
+            print(i, end="")
