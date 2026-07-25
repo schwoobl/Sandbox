@@ -2,7 +2,7 @@ import random
 
 #Guess the word game
 
-words = [ "Hello" , "Test" , "Help", "pasta", "balloon"]
+words = [ "hello", "test", "help", "pasta", "balloon"]
 word = random.choice(words)
 guesses = 10
 

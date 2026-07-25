@@ -93,6 +93,25 @@
 # range(len(message))
 # indexing (message[i])
 
-message = "xHxTxHxTxTxHxHxHxHxTxTxHxTxHxTxHxHxHxHxTxHxTxTxTxHxTxHxTxHxHxTxHxHxHxTxTxTxHxTxHxHxTxHxTxTxHxTxHxTxTxTxTxTxTxHxTxTxTxTxTxHxTxHxTxTxTxTxTxHxHxHxTxHxHxHxHxHxTxHxHxHxTxTxHxTxTxTxTxHxHxHxHxHxHxHxTxHxTxTx"
+# message = "xHxTxHxTxTxHxHxHxHxTxTxHxTxHxTxHxHxHxHxTxHxTxTxTxHxTxHxTxHxHxTxHxHxHxTxTxTxHxTxHxHxTxHxTxTxHxTxHxTxTxTxTxTxTxHxTxTxTxTxTxHxTxHxTxTxTxTxTxHxHxHxTxHxHxHxHxHxTxHxHxHxTxTxHxTxTxTxTxHxHxHxHxHxHxHxTxHxTxTx"
 
-print(range(len(message),2))
+# print(range(len(message),2))
+
+import random
+
+guess = ""
+
+while guess not in ("heads" , "tails"):
+    toss = random.choice(("heads", "tails")) # 0 is tails, 1 is heads
+    print("Guess the coin toss! Enter heads or tails:")
+    guess = input(">")
+
+if toss == guess:
+    print("You got it!")
+else:
+    print("Nope! Guess again!")
+
+    if toss == guess:
+        print("You got it!")
+    else:
+        print("Nope. You are really bad at this game")
