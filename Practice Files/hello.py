@@ -1,12 +1,5 @@
-#This program says hello and asks for my name.
+names = ['Mike', 'Steffi', 'Silke', 'Karin']
+birthdays = ['14.09.1990', '25.01.1966']
 
-print("Hello, world")
-print("'What is your name?") # Asks for their name.
-my_name = input(">")
-print(f"It is good to meet you {my_name}")
-print("The length of your name is:")
-print(len(my_name))
-print("What is your age?")
-my_age = input(">")
-print(f"You will be {str(int(my_age) + 1)} in a year")
-      
+names.extend(Nathalie)
+print(names)

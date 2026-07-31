@@ -1,6 +1,6 @@
 import time, sys
 indent = 0  # How many spaces to indent
-indent_increasing = True  # Whether the indentation is increasing or not
+indent_increasing = bool  # Whether the indentation is increasing or not
 
 try:
     while True:  # The main program loop

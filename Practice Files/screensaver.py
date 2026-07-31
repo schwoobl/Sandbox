@@ -11,3 +11,6 @@ if alice.isalnum() == True:
     print("Correct")
 else:
     print("False")
+
+for i in range(0,10, 1):
+    print(i)
