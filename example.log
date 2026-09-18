@@ -1,0 +1,316 @@
+DEBUG:__main__:This message should go to the log file
+INFO:__main__:So should this
+WARNING:__main__:And this, too
+ERROR:__main__:And non-ASCII stuff, too, like Øresund and Malmö
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.cache:pickle loaded: /Applications/Thonny.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:37] new[31:37]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:35] new[31:35]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:37] new[36:36]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.cache:pickle loaded: /Applications/Thonny.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/logging/__init__.py
+DEBUG:parso.cache:pickle loaded: /Applications/Thonny.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/2and3/logging/__init__.pyi
+DEBUG:parso.cache:pickle loaded: /Applications/Thonny.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+DEBUG:parso.cache:pickle loaded: /Applications/Thonny.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/typing.py
+DEBUG:parso.cache:pickle loaded: /Applications/Thonny.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/jedi/third_party/typeshed/stdlib/3/typing.pyi
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:35] new[1:35]
+DEBUG:parso.python.diff:copy old[27:35] new[1:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:36] new[36:37]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:35] new[31:35]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:37] new[36:36]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:35] new[1:35]
+DEBUG:parso.python.diff:copy old[27:35] new[1:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:36] new[36:37]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:35] new[31:35]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:37] new[36:36]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:35] new[1:35]
+DEBUG:parso.python.diff:copy old[27:35] new[1:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:36] new[36:37]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:35] new[31:35]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:37] new[36:36]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:35] new[1:35]
+DEBUG:parso.python.diff:copy old[27:35] new[1:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:36] new[36:37]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:35] new[31:35]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:37] new[36:36]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:35] new[1:35]
+DEBUG:parso.python.diff:copy old[27:35] new[1:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:36] new[36:37]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 37; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:35] new[31:35]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:37] new[36:36]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 36
+DEBUG:parso.python.diff:-> code[equal] old[1:29] new[1:29]
+DEBUG:parso.python.diff:copy old[27:29] new[1:29]
+DEBUG:parso.python.diff:-> code[replace] old[30:30] new[30:30]
+DEBUG:parso.python.diff:parse_part from 30 to 30 (to 31 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[31:36] new[31:36]
+DEBUG:parso.python.diff:copy old[32:35] new[31:35]
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 36; new: 37
+DEBUG:parso.python.diff:-> code[equal] old[1:35] new[1:35]
+DEBUG:parso.python.diff:copy old[27:35] new[1:35]
+DEBUG:parso.python.diff:-> code[replace] old[36:36] new[36:37]
+DEBUG:parso.python.diff:parse_part from 36 to 37 (to 36 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:__main__:This message should go to the log file
+INFO:__main__:So should this
+WARNING:__main__:And this, too
+ERROR:__main__:And non-ASCII stuff, too, like Øresund and Malmö
+WARNING:root:Look before you leap!
+WARNING:root:Look before you leap!
