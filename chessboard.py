@@ -53,6 +53,21 @@ def print_chessboard(board):
                     squares.append(BLACK_SQUARE)
             is_white_square = not is_white_square
         is_white_square = not is_white_square
-
     print(BOARD_TEMPLATE.format(*squares))
+    
+main_board = copy.copy(STARTING_PIECES)
+while True:
+    print_chessboard(main_board)
+    response = input(">".split()
+    if response[0] == "move":
+        main_board[response[2]] = main_board[response[1]]
+        del main_board[response[1]]
+    elif response[0] == "remove":
+        del main_board[response[1]]
+    elif response[0] == "set":
+        main_board[response[1]] = response[2]
+
+    
+    
+
 
