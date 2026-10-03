@@ -74,7 +74,7 @@ print('  quit - Quits the program')
 main_board = copy.copy(STARTING_PIECES)
 while True:
     print_chessboard(main_board)
-    response = input(">".split())
+    response = input(">").split()
     
     if response[0] == 'move':
         main_board[response[2]] = main_board[response[1]]
