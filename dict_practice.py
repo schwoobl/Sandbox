@@ -1,7 +1,9 @@
 shopping_list = {}
 
-while True:
-    print('Please add items to your shopping list: (Or enter nothing to display the list')
+addThingsToList = True
+
+while addThingsToList == True:
+    print('Please add items to your shopping list: (leave blank to display the list)')
     item = input('>')
     if item == '':
         break 
@@ -11,5 +13,5 @@ while True:
     item = ''
 print('Things to buy: ')
 for k, v in shopping_list.items():
-    print(k, v)
+    print(k + ": " + v)
     
